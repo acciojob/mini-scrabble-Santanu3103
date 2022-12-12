@@ -9,6 +9,6 @@ function countWord() {
     
     
     let display = document.getElementById("letterCount");
-    display.innerHTML = 'Letter Count: '+ currentValue;
+    display.innerHTML = currentValue;
 }
 
