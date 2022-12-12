@@ -7,6 +7,7 @@ function countWord() {
       
     console.log(currentValue);
     
+    
     let display = document.getElementById("letterCount");
     display.innerHTML = 'Letter Count: '+ currentValue;
 }
