@@ -2,7 +2,7 @@ function countWord() {
     let sentence = document.getElementById("evaluatedText").value;
    
     let currentValue=0;
-    let array= sentence.replace(' ','').split("");
+    let array= sentence.split("");
        currentValue = array.length;
       
     console.log(currentValue);
